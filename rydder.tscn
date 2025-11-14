@@ -1,13 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://ckxh6ny6yv211"]
+[gd_scene load_steps=4 format=3 uid="uid://ckxh6ny6yv211"]
 
 [ext_resource type="Script" uid="uid://crogrrescgrb0" path="res://rydder.gd" id="1_nw55l"]
 [ext_resource type="Texture2D" uid="uid://dy17jjjsrxeq8" path="res://icon.svg" id="2_xv5y4"]
 
-[node name="rydder" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xv5y4"]
+size = Vector2(118, 98)
+
+[node name="rydder" type="CharacterBody2D"]
 script = ExtResource("1_nw55l")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(595, 309)
+shape = SubResource("RectangleShape2D_xv5y4")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(602, 308)
+position = Vector2(594, 310)
+scale = Vector2(0.5625, 0.53125)
 texture = ExtResource("2_xv5y4")
