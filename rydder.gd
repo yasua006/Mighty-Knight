@@ -6,10 +6,10 @@ var JUMP_VELOCITY: int = 400
 func _physics_process(_delta: float) -> void:
 	velocity = Vector2.ZERO
 	
-	# hopp
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	# hopp (space)
+	if Input.is_action_pressed("jump"):
 		velocity.y = JUMP_VELOCITY
-	# bevegelser
+	# bevegelser (WASD / ←↑↓→)
 	if Input.is_action_pressed("move_right"):
 		velocity.x += 5
 	if Input.is_action_pressed("move_left"):
@@ -24,5 +24,5 @@ func _physics_process(_delta: float) -> void:
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
 	
-	# bevege
+	# bevege med delta
 	move_and_slide()

@@ -32,9 +32,5 @@ position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
 [node name="level_1" parent="." instance=ExtResource("3_h2yge")]
-<<<<<<< Updated upstream
-position = Vector2(21, 72)
-=======
 
 [node name="HUD" parent="." instance=ExtResource("4_1bvp3")]
->>>>>>> Stashed changes
