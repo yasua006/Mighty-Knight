@@ -1,11 +1,14 @@
 extends CharacterBody2D
 
 @export var speed: int = 500
+var JUMP_VELOCITY: int = 400
 
-
-func _process(_delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	velocity = Vector2.ZERO
 	
+	# hopp
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
 	# bevegelser
 	if Input.is_action_pressed("move_right"):
 		velocity.x += 5
@@ -15,6 +18,7 @@ func _process(_delta: float) -> void:
 		velocity.y += 5
 	if Input.is_action_pressed("move_up"):
 		velocity.y -= 5
+	
 	
 	# håndtere samtidig bevegelser
 	if velocity.length() > 0:
