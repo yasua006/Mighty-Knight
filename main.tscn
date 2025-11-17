@@ -10,9 +10,8 @@
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 1.0
 offset_top = 1.0
-offset_right = 438.0
+offset_right = 437.0
 offset_bottom = 433.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -23,6 +22,13 @@ texture = ExtResource("1_0xm2m")
 
 [node name="Camera2D" type="Camera2D" parent="rydder"]
 position = Vector2(595, 312)
+zoom = Vector2(1.5, 1.5)
+limit_left = 0
+limit_top = 1
+limit_right = 1160
+limit_bottom = 700
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
 
 [node name="level_1" parent="." instance=ExtResource("3_h2yge")]
-position = Vector2(21, 73)
+position = Vector2(21, 72)
