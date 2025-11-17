@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://b8rcppcpsy5xc"]
+[gd_scene load_steps=5 format=3 uid="uid://b8rcppcpsy5xc"]
 
 [ext_resource type="Texture2D" uid="uid://ow0mf3hc4kjk" path="res://bane-ressuser/bilde_bak.png" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://ckxh6ny6yv211" path="res://rydder.tscn" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://ccmqggyeo6bdp" path="res://level_1.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://do8tovan8cgce" path="res://HUD.tscn" id="4_1bvp3"]
 
 [node name="main" type="Node"]
 
@@ -31,4 +32,9 @@ position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
 [node name="level_1" parent="." instance=ExtResource("3_h2yge")]
+<<<<<<< Updated upstream
 position = Vector2(21, 72)
+=======
+
+[node name="HUD" parent="." instance=ExtResource("4_1bvp3")]
+>>>>>>> Stashed changes
