@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-[gd_scene load_steps=5 format=3 uid="uid://b8rcppcpsy5xc"]
-=======
 [gd_scene load_steps=6 format=3 uid="uid://b8rcppcpsy5xc"]
->>>>>>> Stashed changes
 
 [ext_resource type="Texture2D" uid="uid://ow0mf3hc4kjk" path="res://bane-ressuser/bilde_bak.png" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://ckxh6ny6yv211" path="res://rydder.tscn" id="1_ig7tw"]
@@ -59,7 +55,5 @@ texture_scale = 1.89
 height = 300.0
 
 [node name="level_1" parent="." instance=ExtResource("3_h2yge")]
-<<<<<<< Updated upstream
 
 [node name="HUD" parent="." instance=ExtResource("4_1bvp3")]
-=======
