@@ -18,6 +18,9 @@ fill_from = Vector2(0.515625, 0.48389423)
 fill_to = Vector2(1, 1)
 metadata/_snap_count = 100
 
+[ext_resource type="PackedScene" path="res://boks_HOVED.tscn" id="4_lquwl"]
+[ext_resource type="PackedScene" uid="uid://bxgw17c1scpyy" path="res://bane-ressuser/boks_en.tscn" id="5_7mycd"]
+
 [node name="main" type="Node"]
 
 [node name="bilde_bg" type="TextureRect" parent="."]
