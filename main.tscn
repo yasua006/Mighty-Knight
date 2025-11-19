@@ -63,5 +63,3 @@ height = 300.0
 
 [node name="HUD" parent="." instance=ExtResource("4_1bvp3")]
 =======
-position = Vector2(25, 86)
->>>>>>> Stashed changes
