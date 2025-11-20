@@ -9,6 +9,7 @@ size = Vector2(72, 68)
 [node name="rydder" type="CharacterBody2D"]
 safe_margin = 0.001
 script = ExtResource("1_nw55l")
+speed = null
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(594, 310)
