@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dyrbrgh4a7juq"]
+[gd_scene load_steps=7 format=3 uid="uid://bbuy6yd5rwjrl"]
 
 [ext_resource type="Texture2D" uid="uid://ow0mf3hc4kjk" path="res://bane-ressuser/bilde_bak.png" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://ckxh6ny6yv211" path="res://rydder.tscn" id="1_ig7tw"]
@@ -25,7 +25,7 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = 1.0
-offset_right = 437.0
+offset_right = 2078.7563
 offset_bottom = 433.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -39,12 +39,12 @@ position = Vector2(595, 312)
 zoom = Vector2(1.5, 1.5)
 limit_left = 0
 limit_top = 1
-limit_right = 1160
+limit_right = 2400
 limit_bottom = 700
 position_smoothing_enabled = true
 
 [node name="PointLight2D" type="PointLight2D" parent="rydder"]
-position = Vector2(592, 308)
+position = Vector2(840.00006, 172.00006)
 scale = Vector2(3.9080958, 3.7478282)
 energy = 0.77
 shadow_enabled = true
