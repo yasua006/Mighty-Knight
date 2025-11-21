@@ -43,7 +43,6 @@ limit_top = 1
 limit_right = 1160
 limit_bottom = 700
 position_smoothing_enabled = true
-rotation_smoothing_enabled = true
 
 [node name="PointLight2D" type="PointLight2D" parent="rydder"]
 position = Vector2(592, 308)
