@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b8rcppcpsy5xc"]
+[gd_scene load_steps=8 format=3 uid="uid://eymh170ktwmq"]
 
 [ext_resource type="Texture2D" uid="uid://ow0mf3hc4kjk" path="res://bane-ressuser/bilde_bak.png" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://ckxh6ny6yv211" path="res://rydder.tscn" id="1_ig7tw"]
@@ -59,3 +59,4 @@ height = 300.0
 [node name="HUD" parent="." instance=ExtResource("4_1bvp3")]
 
 [node name="Control" parent="." instance=ExtResource("5_lquwl")]
+visible = false
