@@ -23,24 +23,33 @@ func _physics_process(delta: float) -> void:
 		velocity += get_gravity() * delta
 	
 	if chase:
+		$AnimatedSprite2D.play("Attack")
 		if player.global_position.x < global_position.x:
 			direction = -1
+			$AnimatedSprite2D.flip_h = true
 		else:
 			direction = 1
-			
+			$AnimatedSprite2D.flip_h = false
+	else:
+		#stop animasjon
+		$AnimatedSprite2D.play("Idle")
+		pass		
 	if direction:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+		
 
 	move_and_slide()
 
 
-func _on_detection_body_entered(body: Node2D) -> void:
+func _on_ditection_area_body_entered(body: Node2D) -> void:
+	print(body.name)
 	if body.name == "ridder":
 		chase = true
 
 
-func _on_detection_body_exited(body: Node2D) -> void:
+func _on_ditection_area_body_exited(body: Node2D) -> void:
 	if body.name == "ridder":
 		chase = false
+		
