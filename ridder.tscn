@@ -7,6 +7,8 @@
 size = Vector2(72, 68)
 
 [node name="ridder" type="CharacterBody2D"]
+position = Vector2(2, 0)
+scale = Vector2(0.8, 0.8)
 safe_margin = 0.001
 script = ExtResource("1_nw55l")
 
@@ -17,4 +19,5 @@ texture = ExtResource("2_xv5y4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(840, 172)
+scale = Vector2(0.8, 0.8)
 shape = SubResource("RectangleShape2D_xv5y4")
