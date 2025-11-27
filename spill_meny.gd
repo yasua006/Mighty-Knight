@@ -38,6 +38,7 @@ func _on_start_btn_pressed() -> void:
 	
 	$hoved_container.hide()
 	$bakgrunn_bilde.hide()
+	$meny_lys.visible = false
 	
 	music.playing = true
 	
