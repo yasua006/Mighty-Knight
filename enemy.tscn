@@ -221,7 +221,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_getpj"]
-size = Vector2(19.096771, 26.796677)
+size = Vector2(18.580639, 27.618263)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ryguw"]
 radius = 47.498882
@@ -236,7 +236,7 @@ sprite_frames = SubResource("SpriteFrames_82xsv")
 animation = &"Attack"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-17, 9.046875)
+position = Vector2(-39.000004, 19.999998)
 scale = Vector2(3.875001, 3.7656243)
 shape = SubResource("RectangleShape2D_getpj")
 
